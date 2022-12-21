@@ -1,10 +1,10 @@
 # :orange_book: Swift - Programe para iPhone e iPad
-|<img src="imagens/capa.jpg" width="250" />|
+|<img src="imagens/capa.jpg" width="300" />|
 | ------- |
 ##### Livro da `Casa do Código` - `SÉRIE CAELUM` | <i> Autores: Guilherme Silveira e Joviane Jardim </i> | Ano: 2016
 #### :package: Link Compra: [Amazon](https://www.amazon.com.br/Swift-Programe-para-iPhone-iPad-ebook/dp/B019OUUZGK)
  
-  ### Reeleitura do Livro e do Projeto proposto, agora atualizado para `Swift 5.6` :iphone: e `SDK 16.1` ultilizando:
+  ### Releitura do Livro e do Projeto proposto, agora atualizado para `Swift 5.6` :iphone: e `SDK 16.1` ultilizando:
   - [x] Swift 5.6
   - [x] StoryBoard
   - [x] Xib
@@ -13,8 +13,8 @@
   
  ## Print Screen :foggy:
  
-|<img src="imagens/appsample.gif" width="250" />|
-| ------- |
-| Projeto Proposto no livro |
+|<img src="imagens/appsample.gif" width="300" />|
+| ------------------------- |
+| App Gerenciar de Calorias e Felicidade |
 
 ##### :point_up: Crétidos do proejto a [`Casa do Código`](https://www.casadocodigo.com.br) `CAELUM`
