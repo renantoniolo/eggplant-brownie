@@ -8,8 +8,8 @@
 import Foundation
 
 class Dao {
-    let mealsArchive: String = "meals"
-    let itensArchive: String = "itens"
+    private let mealsArchive: String = "meals"
+    private let itensArchive: String = "itens"
     
     func saveMeals(meals: [Meal]) {
         do {

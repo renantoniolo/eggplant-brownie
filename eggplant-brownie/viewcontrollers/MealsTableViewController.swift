@@ -12,8 +12,8 @@ protocol AddMealsDelegate {
 }
 
 class MealsTableViewController : UITableViewController {
-    var meals: [Meal] = []
-    let dao: Dao = Dao()
+    private var meals: [Meal] = []
+    private let dao: Dao = Dao()
     
     override func viewDidLoad() {
         self.meals = dao.getMeals()

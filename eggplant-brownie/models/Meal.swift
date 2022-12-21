@@ -27,11 +27,9 @@ class Meal: Codable {
     
     func details() -> String {
         var message = "Happines: \(self.happiness)"
-        
         items.forEach { Item in
             message += " \n \(Item.name) - calories: \(Item.calories)"
         }
-        
         return message
     }
 }

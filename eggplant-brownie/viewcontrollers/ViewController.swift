@@ -13,9 +13,9 @@ protocol AddItemDelegate {
 
 final class ViewController: UIViewController {
     var delegate: AddMealsDelegate?
-    var selected: [Item] = []
-    var itens: [Item] = []
-    let dao: Dao = Dao()
+    private var selected: [Item] = []
+    private var itens: [Item] = []
+    private let dao: Dao = Dao()
     
     @IBOutlet weak private var nameField: UITextField!
     @IBOutlet weak private var happinessField: UITextField!
@@ -29,7 +29,6 @@ final class ViewController: UIViewController {
                                             target: self,
                                             action: #selector(showNewItem))
         navigationItem.rightBarButtonItem = newItemButton
-        
     }
     
     @IBAction func add(_ sender: UIButton) {
